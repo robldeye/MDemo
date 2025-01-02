@@ -5,7 +5,7 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="Animated-Mathematics-for-Introductory-Calculus">
-    <title>My Great Book</title>
+    <title>Animated Mathematics for Introductory Calculus</title>
     <subtitle>An approach to Introductory Calculus via Manimations</subtitle>
 
     <!-- Include frontmatter -->
