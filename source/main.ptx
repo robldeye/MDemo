@@ -4,9 +4,9 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="Animated-Mathematics-for-Introductory-Calculus">
     <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <subtitle>An approach to Introductory Calculus via Manimations</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
