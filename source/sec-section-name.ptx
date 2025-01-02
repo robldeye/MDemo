@@ -3,7 +3,20 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Limits</title>
 
-  <p>  </p>
+  <p> 
+    What does it mean to say that the value of a function approaches a specific quantity? As <m>t</m> changes, the value of a given function <m>f(t)</m> changes as well. Intuitively, we think that the statement 
+    <me>f(t) \text{approaches} L \text{as} t \text{approaches} a"</me> 
+    to mean...
+  
+  
+  
+  </p>
+
+  <exercise>
+    <title> Motivating Limits</title>
+      <p> What does it mean to say that the value of a function approaches a specific quantity? Intuitively, we think that the statement </p>
+    
+  </exercise>
   
   <video source="LimitApproachScene.mp4"/>
 
