@@ -5,13 +5,10 @@
 
   <p>  </p>
   
-  <video source="LimitApproachScene.mp4">
-    <shortdescription> <m> \lim_{x \to 1}f(x) = -3 </m> </shortdescription>
-    <description>
-      <p>
-          For the function <m> f(t)=t^2-4 </m>, we can watch how the values of <m>f</m> move closer to <m>L=-3</m> as <m>t</m> approaches <m>1</m> from either side. This verifies that <m> \lim_{t \to 1}f(t)=-3 </m>
-      </p>
-    </description>  
-  </video>
+  <video source="LimitApproachScene.mp4"/>
 
+  <p>
+    For the function <m> f(t)=t^2-4 </m>, we can watch how the values of <m>f</m> move closer to <m>L=-3</m> as <m>t</m> approaches <m>1</m> from either side. This verifies that <m> \lim_{t \to 1}f(t)=-3 </m>
+  </p>
+  
 </section>
