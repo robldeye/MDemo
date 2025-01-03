@@ -4,19 +4,14 @@
   <title>Limits</title>
 
   <p> 
-    What does it mean to say that the value of a function approaches a specific quantity? As <m>t</m> changes, the value of a given function <m>f(t)</m> changes as well. Intuitively, we think that the statement 
-    <me>f(t) \text{ approaches } L \text{ as } t \text{ approaches } a"</me> 
-    to mean...
-  
-  
-  
+    What does it mean to say that the value of a function approaches a specific quantity? As <m>t</m> changes, so too does the value of a given function <m>f(t)</m>. We would like to use the notation 
+    <me>f(t) \to L \text{ as } t \to a</me> 
+    to mean that the function values <m>f(t)</m> get closer to some <m>y</m>-value <m>L</m> as a consequence of <m>t</m> getting closer to some <m>t</m>-value <m>a</m>.
   </p>
 
   <exercise>
     <title> Motivating Limits</title>
       <p> What does it mean to say that the value of a function approaches a specific quantity? Intuitively, we think that the statement </p>
-    
-  </exercise>
   
   <video source="LimitApproachScene.mp4"/>
 
@@ -24,5 +19,7 @@
     For the function <m> f(t)=t^2-4 </m>, we can watch how the values of <m>f</m> move closer to <m>L=-3</m> as <m>t</m> approaches <m>1</m> from either side. This verifies that
     <me> \lim_{t \to 1}f(t)=-3 </me>
   </p>
+
+  </exercise>
   
 </section>
