@@ -5,7 +5,7 @@
 
   <p> 
     What does it mean to say that the value of a function approaches a specific quantity? As <m>t</m> changes, the value of a given function <m>f(t)</m> changes as well. Intuitively, we think that the statement 
-    <me>f(t) \text{approaches} L \text{as} t \text{approaches} a"</me> 
+    <me>f(t) \text{ approaches } L \text{ as } t \text{ approaches } a"</me> 
     to mean...
   
   
