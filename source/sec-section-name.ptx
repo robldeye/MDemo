@@ -11,13 +11,13 @@
 
   <exercise>
     <title> Motivating Limits</title>
-      <p> What does it mean to say that the value of a function approaches a specific quantity? Intuitively, we think that the statement </p>
+      <p> Consider the function <m> f(t)=t^2-4 </m>. Let's watch in the manimation below what happens when <m> t \to 1 </m>.  </p>
   
   <video source="LimitApproachScene.mp4"/>
 
   <p>
-    For the function <m> f(t)=t^2-4 </m>, we can watch how the values of <m>f</m> move closer to <m>L=-3</m> as <m>t</m> approaches <m>1</m> from either side. This verifies that
-    <me> \lim_{t \to 1}f(t)=-3 </me>
+    We see that <m> f(t) \to -3 </m> as <m> t \to 1 </m> from either side. this veries that
+    <me> \lim_{t \to 1}f(t)=-3 </me>.
   </p>
 
   </exercise>
