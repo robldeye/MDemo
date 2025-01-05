@@ -11,7 +11,7 @@
 
   <exercise>
     <title> Motivating Limits</title>
-      <p> Consider the function <m> f(t)=t^2-4 </m>. Let's watch in the manimation below what happens when <m> t \to 1 </m>.  </p>
+      <p> Consider the function <m> f(t)=t^2-4 </m>. Let's watch in the manimation below what happens when <m> t \to 1 </m>.</p>
   
   <video source="LimitApproachScene.mp4"/>
 
