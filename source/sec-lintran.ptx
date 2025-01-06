@@ -4,14 +4,31 @@
   <title>Limits</title>
 
   <p> 
-    What does it mean to say that the value of a function approaches a specific quantity? As <m>t</m> changes, so too does the value of a given function <m>f(t)</m>. We would like to use the notation 
-    <me>f(t) \to L \text{ as } t \to a</me> 
-    to mean that the function values <m>f(t)</m> get closer to some <m>y</m>-value <m>L</m> as a consequence of <m>t</m> getting closer to some <m>t</m>-value <m>a</m>.
+    We have previously seen that the solution set to a linear system can take on different forms: a single point, a line, a plane, etc. In the case of a line <m>L</m>, we saw that we can take a vector <m>\mathbf{v}</m> that lies on <m>L</m>, 
+    and reach any other vector that lies on <m>L</m> by scaling <m>\mathbf{v}</m> by a constant. In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane. 
+    Now we introduce notation that captures this idea a little more formally.
+  </p>
+
+  <definition xml:id="def-span">
+    <statement>
+      <p>
+        Suppose that <m>\mathcal{C}=\{\mathbf{v}_1, \dots, \mathbf{v}_n}</m> is a collection of vectors in <m>\mathbb{R}^n</m>. The "span" of <m>\mathcal{C}</m> is a new collection of all possible linear combinations of the vectors in <m>\mathcal{C}</m>:
+        <me> \text{Span}(\mathcal{C})=\{c_1\mathbf{v}_1 + \cdots + c_n\mathbf{v}_n \mid c_i \in \mathbb{R}}.</me>
+      </p>
+    </statement>
+  </definition>
+
+  <p> 
+    For example, the following manimation shows that the span of a single non-zero vector is a line.
+    <video source="TransformGridWithBasisVectors.mp4"/>
+    Caution: Scaling the zero vector leaves it unchanged, and so <m>\text{Span}(\mathbf{0})=\{\mathbf{0}\}</m>. Outside of this example, the span of a finite collection of vectors will always contains an infinite amount of vectors.
   </p>
 
   <exercise>
-    <title> Motivating Limits</title>
-      <p> Consider the function <m> f(t)=t^2-4 </m>. Let's watch in the manimation below what happens when <m> t \to 1 </m>.</p>
+    <title>Prototypical Example</title>
+      <p>
+        Consider the matrix <m>A=\begin{bmatrix} 1 & 1 \\ -1 & 2\end{bmatrix}</m>.  
+      </p>
   
   <video source="TransformGridWithBasisVectors.mp4"/>
 
@@ -26,7 +43,7 @@
     <title> What can go wrong?</title>
       <p> Consider the function <m> f(t)=t^2-4 </m>. In the animation below <m> t \to 1 </m>.</p>
   
-  <video source="TransformGridWithBasisVectors.mp4"/>
+  <video source="SingularMatrix.mp4"/>
 
   <p>
     We see that <m> f(t) \to -3 </m> as <m> t \to 1 </m> from either side. this veries that
