@@ -4,8 +4,9 @@
   <title>Linear Combinations</title>
 
   <p> 
-    We have previously seen that the solution set to a linear system can take on different forms: a single point, a line, a plane, etc. In the case of a line <m>L</m>, we saw that we can take a vector <m>\mathbf{v}</m> that lies on <m>L</m>, 
-    and reach any other vector that lies on <m>L</m> by scaling <m>\mathbf{v}</m> by a constant. In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane. 
+    We have previously seen that the solution set to a linear system can take on different forms: a single point, a line, a plane, etc. In the case of a line <m>L</m>, 
+    we saw that we can take a vector <m>\mathbf{v}</m> that lies on <m>L</m>, and reach any other vector that lies on <m>L</m> by scaling <m>\mathbf{v}</m> by a constant. 
+    In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane. 
     Now we introduce notation that captures this idea a little more formally.
   </p>
 
@@ -21,19 +22,43 @@
 
   <p> 
     For example, the following manimation shows that the span of a single non-zero vector is a line.
-    <video source="TransformGridWithBasisVectors.mp4"/>
-    Caution: Scaling the zero vector leaves it unchanged, and so <m>\text{Span}(\mathbf{0})=\{\mathbf{0}\}</m>. Outside of this example, the span of a finite collection of vectors will always contains an infinite amount of vectors.
+    <video source="Span.mp4"/>
+    Caution: Scaling the zero vector leaves it unchanged, and so <m>\text{Span}(\mathbf{0})=\{\mathbf{0}\}</m>. Outside of this example, the span of a 
+    finite collection of vectors will always contains an infinite amount of vectors.
+  </p>
+
+  <p>
+    Let's take a look at how matrix multiplication affects vectors.
   </p>
 
   <exercise>
-    <title> What can go wrong?</title>
-      <p> Consider the function <m> f(t)=t^2-4 </m>. In the animation below <m> t \to 1 </m>.</p>
+    <title>Protypical Example</title>
+      <p> Suppose <m>A=\begin{bmatrix}1&-1\\-1&1\end{bmatrix}</m>. Watch what happens to the coordinate axes 
+        <m>\text{Span}\left(\begin{bmatrix}1\\0\end{bmatrix}\)</m> and <m>\text{Span}\left(\begin{bmatrix}0\\1\end{bmatrix}\)</m>:
+      </p>
+  
+  <video source="TransformGridWithBasisVectors.mp4"/>
+
+  <p>
+    We see that <m>A</m> takes the original coordinate axes and contorts them into a kind of 'sheared' plane.
+  </p>
+
+  </exercise>
+
+  <exercise>
+    <title>What can go wrong?</title>
+      <p>
+        Suppose <m>A=\begin{bmatrix}1&-1\\-1&1\end{bmatrix}</m>. Watch what happens to the coordinate axes 
+        <m>\text{Span}\left(\begin{bmatrix}1\\0\end{bmatrix}\)</m> and <m>\text{Span}\left(\begin{bmatrix}0\\1\end{bmatrix}\)</m>:
+      </p>
   
   <video source="SingularMatrix.mp4"/>
 
   <p>
-    We see that <m> f(t) \to -3 </m> as <m> t \to 1 </m> from either side. this veries that
-    <me> \lim_{t \to 1}f(t)=-3 </me>.
+    Notice that <m>\text{Span}\left(A\begin{bmatrix}1\\0\end{bmatrix}\right) = \text{Span}\left(A\begin{bmatrix}0\\1\end{bmatrix}\right)</m>. 
+    Applying this matrix to the vectors of the plane effectively 'collapses' the plane to a line. Even though we are not yet equipped with the formal definition of 'dimension',
+    our intuition tells us that it must encode that a plane is 2-dimensional and a line is 1-dimensional. How can we foresee this happening based on the data contained in 
+    <m>A</m>?
   </p>
 
   </exercise>
