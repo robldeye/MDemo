@@ -12,9 +12,9 @@
   <definition xml:id="def-span">
     <statement>
       <p>
-        Suppose that <m>\mathcal{C}=\{\mathbf{v}_1, \dots, \mathbf{v}_n}</m> is a collection of vectors in <m>\mathbb{R}^n</m>. The "span" of <m>\mathcal{C}</m> is a new 
+        Suppose that <m>\mathcal{C}=\{\mathbf{v}_1, \dots, \mathbf{v}_n}\}</m> is a collection of vectors in <m>\mathbb{R}^n</m>. The "span" of <m>\mathcal{C}</m> is a new 
         collection of all possible linear combinations of the vectors in <m>\mathcal{C}</m>:
-        <me> \text{Span}(\mathcal{C})=\{c_1\mathbf{v}_1 + \cdots + c_n\mathbf{v}_n \mid c_i \in \mathbb{R}}.</me>
+        <me> \text{Span}(\mathcal{C})=\{c_1\mathbf{v}_1 + \cdots + c_n\mathbf{v}_n \mid c_i \in \mathbb{R}\}.</me>
       </p>
     </statement>
   </definition>
