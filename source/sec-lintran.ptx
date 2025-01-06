@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-lintran" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Limits</title>
+  <title>Linear Combinations</title>
 
   <p> 
     We have previously seen that the solution set to a linear system can take on different forms: a single point, a line, a plane, etc. In the case of a line <m>L</m>, we saw that we can take a vector <m>\mathbf{v}</m> that lies on <m>L</m>, 
@@ -12,7 +12,8 @@
   <definition xml:id="def-span">
     <statement>
       <p>
-        Suppose that <m>\mathcal{C}=\{\mathbf{v}_1, \dots, \mathbf{v}_n}</m> is a collection of vectors in <m>\mathbb{R}^n</m>. The "span" of <m>\mathcal{C}</m> is a new collection of all possible linear combinations of the vectors in <m>\mathcal{C}</m>:
+        Suppose that <m>\mathcal{C}=\{\mathbf{v}_1, \dots, \mathbf{v}_n}</m> is a collection of vectors in <m>\mathbb{R}^n</m>. The "span" of <m>\mathcal{C}</m> is a new 
+        collection of all possible linear combinations of the vectors in <m>\mathcal{C}</m>:
         <me> \text{Span}(\mathcal{C})=\{c_1\mathbf{v}_1 + \cdots + c_n\mathbf{v}_n \mid c_i \in \mathbb{R}}.</me>
       </p>
     </statement>
@@ -23,21 +24,6 @@
     <video source="TransformGridWithBasisVectors.mp4"/>
     Caution: Scaling the zero vector leaves it unchanged, and so <m>\text{Span}(\mathbf{0})=\{\mathbf{0}\}</m>. Outside of this example, the span of a finite collection of vectors will always contains an infinite amount of vectors.
   </p>
-
-  <exercise>
-    <title>Prototypical Example</title>
-      <p>
-        Consider the matrix <m>A=\begin{bmatrix} 1 & 1 \\ -1 & 2\end{bmatrix}</m>.  
-      </p>
-  
-  <video source="TransformGridWithBasisVectors.mp4"/>
-
-  <p>
-    We see that <m> f(t) \to -3 </m> as <m> t \to 1 </m> from either side. this veries that
-    <me> \lim_{t \to 1}f(t)=-3 </me>.
-  </p>
-
-  </exercise>
 
   <exercise>
     <title> What can go wrong?</title>
