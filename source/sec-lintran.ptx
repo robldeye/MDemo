@@ -35,7 +35,9 @@
   <exercise>
     <title>Protypical Example</title>
     <p> 
-      Suppose <me>A=\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}</me>. Watch what happens to the coordinate axes 
+      Suppose 
+      <me>A=\begin{bmatrix} 1 \amp -1 \\ -1 \amp 1 \end{bmatrix}</me>.
+      Watch what happens to the coordinate axes 
       <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1 \end{bmatrix}\right)</me>:
     </p>
   
@@ -49,7 +51,7 @@
   <exercise>
     <title>What can go wrong?</title>
     <p>
-      Suppose <me>A=\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}</me>. Watch what happens to the coordinate axes 
+      Suppose <me>A=\begin{bmatrix} 1 \amp -1 \\ -1 \amp 1 \end{bmatrix}</me>. Watch what happens to the coordinate axes 
       <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1\end{bmatrix}\right)</me>:
     </p>
   
