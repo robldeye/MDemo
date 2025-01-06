@@ -48,8 +48,8 @@
   <exercise>
     <title>What can go wrong?</title>
     <p>
-        Suppose <m>A=\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}</m>. Watch what happens to the coordinate axes 
-        <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1\end{bmatrix}\right)</me>:
+      Suppose <m>A=\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}</m>. Watch what happens to the coordinate axes 
+      <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1\end{bmatrix}\right)</me>:
     </p>
   
     <video source="SingularMatrix.mp4"/>
