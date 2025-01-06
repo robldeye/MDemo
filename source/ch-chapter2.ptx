@@ -8,6 +8,6 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-lintran.ptx" />
+  <xi:include href="./sec-lintran.ptx" />
 
 </chapter>

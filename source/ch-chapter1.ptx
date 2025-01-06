@@ -8,6 +8,6 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-limits.ptx" />
+  <xi:include href="./sec-limits.ptx" />
 
 </chapter>
