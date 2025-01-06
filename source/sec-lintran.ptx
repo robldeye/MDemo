@@ -40,7 +40,7 @@
   <video source="TransformGridWithBasisVectors.mp4"/>
 
   <p>
-    We see that <m>A</m> takes the original coordinate axes and contorts them into a kind of 'sheared' plane.
+    We see that <m>A</m> takes the plane with standard coordinate axes and contorts it into a kind of 'sheared' plane.
   </p>
 
   </exercise>
