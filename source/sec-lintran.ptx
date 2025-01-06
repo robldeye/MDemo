@@ -35,7 +35,7 @@
     <title>Protypical Example</title>
     <p> 
       Suppose <m>A=\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}</m>. Watch what happens to the coordinate axes 
-      <m>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right\)</m> and <m>\text{Span}\left(\begin{bmatrix} 0 \\ 1 \end{bmatrix}\right\)</m>:
+      <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1 \end{bmatrix}\right)</me>:
     </p>
   
     <video source="TransformGridWithBasisVectors.mp4"/>
@@ -49,13 +49,14 @@
     <title>What can go wrong?</title>
     <p>
         Suppose <m>A=\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}</m>. Watch what happens to the coordinate axes 
-        <m>\text{Span}(\begin{bmatrix} 1 \\ 0 \end{bmatrix})</m> and <m>\text{Span}(\begin{bmatrix} 0 \\ 1\end{bmatrix})</m>:
+        <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1\end{bmatrix}\right)</me>:
     </p>
   
     <video source="SingularMatrix.mp4"/>
 
     <p>
-      Notice that <m>\text{Span}(A\begin{bmatrix}1\\0\end{bmatrix}) = \text{Span}(A\begin{bmatrix}0\\1\end{bmatrix})</m>. 
+      Notice that 
+      <me>\text{Span}\left(A\begin{bmatrix}1\\0\end{bmatrix}\right) = \text{Span}\left(A\begin{bmatrix}0\\1\end{bmatrix}\right)</me>. 
       Applying this matrix to the vectors of the plane effectively 'collapses' the plane to a line. Even though we are not yet equipped with the formal definition of 'dimension',
       our intuition tells us that it must encode that a plane is 2-dimensional and a line is 1-dimensional. How can we foresee this happening based on the data contained in 
       <m>A</m>?
