@@ -27,44 +27,5 @@
   </p>
 
   <video source="Span.mp4"/>
-
-  <p>
-    Let's take a look at how matrix multiplication affects vectors.
-  </p>
-
-  <exercise>
-    <title>Protypical Example</title>
-    <p> 
-      Suppose 
-      <me>A=\begin{bmatrix} 1 \amp -1 \\ -1 \amp 1 \end{bmatrix}</me>.
-      Watch what happens to the coordinate axes 
-      <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1 \end{bmatrix}\right)</me>:
-    </p>
-  
-    <video source="TransformGridWithBasisVectors.mp4"/>
-
-    <p>
-      We see that <m>A</m> takes the plane with standard coordinate axes and contorts it into a kind of 'sheared' plane.
-    </p>
-  </exercise>
-
-  <exercise>
-    <title>What can go wrong?</title>
-    <p>
-      Suppose <me>A=\begin{bmatrix} 1 \amp -1 \\ -1 \amp 1 \end{bmatrix}</me>. Watch what happens to the coordinate axes 
-      <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1\end{bmatrix}\right)</me>:
-    </p>
-  
-    <video source="SingularMatrix.mp4"/>
-
-    <p>
-      Notice that 
-      <me>\text{Span}\left(A\begin{bmatrix}1\\0\end{bmatrix}\right) = \text{Span}\left(A\begin{bmatrix}0\\1\end{bmatrix}\right)</me>. 
-      Applying this matrix to the vectors of the plane effectively 'collapses' the plane to a line. Even though we are not yet equipped with the formal definition of 'dimension',
-      our intuition tells us that it must encode that a plane is 2-dimensional and a line is 1-dimensional. How can we foresee this happening based on the data contained in 
-      <m>A</m>?
-    </p>
-
-  </exercise>
   
 </section>
