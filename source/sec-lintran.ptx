@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-lintran" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Linear Combinations</title>
+  <title>Linear Transformations</title>
 
   <p> 
-    We have previously seen that the solution set to a linear system can take on different forms: a single point, a line, a plane, etc. In the case of a line <m>L</m>, 
-    we saw that we can take a vector <m>\mathbf{v}</m> that lies on <m>L</m>, and reach any other vector that lies on <m>L</m> by scaling <m>\mathbf{v}</m> by a constant. 
-    In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane. 
-    Now we introduce notation that captures this idea a little more formally.
+    Most of our focus on the matrix equation <m> A\mathbf{x}=\mathbf{b} </m> has been devoted to fixing some vector <m> \mathbf{x} </m> and then finding all solution vectors <m> \mathbf{x} </m>. Recalling consistency,
+    let's think about which <m> \mathbf{b} </m> admit solutions to the matrix equation. It will be helpful to think of a matrix <m> A </m> as a function:
+    <me>
+        A(\mathbf{x}) = \mathbf{b},
+    </me>
+    that takes in vectors <m> \mathbf{x} \in \mathbb{R}^n </m> and outputs a new vector <m> A(\mathbf{x}) \in \mathbb{R}^m </m>. Suppose <m> n = m </m>, so that the input and output vectors all lie in the same space.
   </p>
-
-  <definition xml:id="def-span">
-    <statement>
-      <p>
-        Suppose that <m>\mathcal{C}=\{\mathbf{v}_1, \dots, \mathbf{v}_n\}</m> is a collection of vectors in <m>\mathbb{R}^n</m>. The "span" of <m>\mathcal{C}</m> is a new 
-        collection of all possible linear combinations of the vectors in <m>\mathcal{C}</m>:
-        <me> \text{Span}(\mathcal{C})=\{c_1\mathbf{v}_1 + \cdots + c_n\mathbf{v}_n \mid c_i \in \mathbb{R}\}.</me>
-      </p>
-    </statement>
-  </definition>
-
-  <p> 
-    For example, the following manimation shows that the span of a single non-zero vector is a line.
-    Caution: Scaling the zero vector leaves it unchanged, and so <m>\text{Span}(\mathbf{0})=\{\mathbf{0}\}</m>. Outside of this example, the span of a 
-    finite collection of vectors will always contains an infinite amount of vectors.
-  </p>
-
-  <video source="Span.mp4"/>
 
   <p>
-    Let's take a look at how matrix multiplication affects vectors.
+    We can visualize the effect of this matrix function on vectors in the plane in the following two examples.
   </p>
 
   <exercise>
@@ -61,10 +45,13 @@
       Notice that 
       <me>\text{Span}\left(A\begin{bmatrix}1\\0\end{bmatrix}\right) = \text{Span}\left(A\begin{bmatrix}0\\1\end{bmatrix}\right)</me>. 
       Applying this matrix to the vectors of the plane effectively 'collapses' the plane to a line. Even though we are not yet equipped with the formal definition of 'dimension',
-      our intuition tells us that it must encode that a plane is 2-dimensional and a line is 1-dimensional. How can we foresee this happening based on the data contained in 
-      <m>A</m>?
+      our intuition tells us that it must encode that a plane is 2-dimensional and a line is 1-dimensional.
     </p>
 
   </exercise>
+
+  <p>
+    The only difference between the two exercises above lied in the (<m>2 \times 2</m>)-matrices that we used. How do their RREF compare?
+  </p>
   
 </section>
