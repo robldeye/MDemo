@@ -53,5 +53,27 @@
   <p>
     The only difference between the two exercises above lied in the (<m>2 \times 2</m>)-matrices that we used. How do their RREF compare?
   </p>
+
+  <p>
+    Let's increase dimension a little by considering the effect of a (<m>3 \times 3</m>)-matrix <m>A</m> acting on <m>\mathbb{R}^3</m>.
+  </p>
+
+  <exercise>
+    <title>Higher dimensions</title>
+    <p>
+      Suppose <me>A=\begin{bmatrix} 1 \amp -1 \amp 2 \\ -1 \amp 1 \amp -2 \\ 0.5 \amp -0.5 \amp 1\end{bmatrix}</me>. Watch what happens to the coordinate axes <m> \mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3</m>:
+    </p>
+  
+    <video source="sm2.mp4"/>
+
+    <p>
+      Once again, we have
+      <me>\text{Span}(A\mathbf{v}_1) = \text{Span}(A\mathbf{v}_2) = \text{Span}(A\mathbf{v}_3)</me>. 
+      This time, <m>A</m> acts on three-space by collapsing everything to a line.
+    </p>
+
+  </exercise>
+
+
   
 </section>

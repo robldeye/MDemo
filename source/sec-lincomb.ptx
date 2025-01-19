@@ -23,7 +23,7 @@
   <p> 
     For example, the following manimation shows that the span of a single non-zero vector is a line.
     Caution: Scaling the zero vector leaves it unchanged, and so <m>\text{Span}(\mathbf{0})=\{\mathbf{0}\}</m>. Outside of this example, the span of a 
-    finite collection of vectors will always contains an infinite amount of vectors.
+    finite collection of vectors always contains an infinite amount of vectors.
   </p>
 
   <video source="Span.mp4"/>
