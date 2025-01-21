@@ -6,7 +6,12 @@
   <p> 
     We have previously seen that the solution set to a linear system can take on different forms: a single point, a line, a plane, etc. In the case of a line <m>L</m>, 
     we saw that we can take a vector <m>\mathbf{v}</m> that lies on <m>L</m>, and reach any other vector that lies on <m>L</m> by scaling <m>\mathbf{v}</m> by a constant. 
-    In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane. 
+    In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane.
+  </p>
+
+  <video source="SpanEx.mp4"/>
+
+  <p>  
     Now we introduce notation that captures this idea a little more formally.
   </p>
 
