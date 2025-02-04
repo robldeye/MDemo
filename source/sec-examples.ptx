@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Example Gallery</title>
+
+  <video source="Limit.mp4"/>
+  <video source="LimitDC.mp4"/>
+  <video source="SingularMatrix.mp4"/>
+  <video source="sm2.mp4"/>
+  <video source="Span.mp4"/>
+  <video source="TransformGridWithBasisVectors.mp4"/>
+  <video source="Limit.mp4"/>
+  <video source="Limit.mp4"/>
+  <video source="Limit.mp4"/>

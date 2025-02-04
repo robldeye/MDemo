@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Example Gallery</title>
+
+  <introduction>
+    <p> Included are examples of completed manimations.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="./sec-examples.ptx" />
+
+</chapter>
