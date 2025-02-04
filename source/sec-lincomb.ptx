@@ -9,7 +9,9 @@
     In the case of a plane, we can use two vectors that don't lie on a common line (more on this later) and use their multiples to sweep out the plane.
   </p>
 
-  <video source="SpanEx.mp4"/>
+  <video source="LinCombEx.mp4"/>
+
+  <video source="SpanLine2D.mp4"/>
 
   <p>  
     Now we introduce notation that captures this idea a little more formally.

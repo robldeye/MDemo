@@ -25,7 +25,7 @@
       <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1 \end{bmatrix}\right)</me>:
     </p>
   
-    <video source="TransformGridWithBasisVectors.mp4"/>
+    <video source="InvertibleTransform.mp4"/>
 
     <p>
       We see that <m>A</m> takes the plane with standard coordinate axes and contorts it into a kind of 'sheared' plane.
@@ -39,7 +39,7 @@
       <me>\text{Span}\left(\begin{bmatrix} 1 \\ 0 \end{bmatrix}\right) \text{ and } \text{Span}\left(\begin{bmatrix} 0 \\ 1\end{bmatrix}\right)</me>:
     </p>
   
-    <video source="SingularMatrix.mp4"/>
+    <video source="SingularTransform2D.mp4"/>
 
     <p>
       Notice that 
@@ -64,7 +64,7 @@
       Suppose <me>A=\begin{bmatrix} 1 \amp -1 \amp 2 \\ -1 \amp 1 \amp -2 \\ 0.5 \amp -0.5 \amp 1\end{bmatrix}</me>. Watch what happens to the coordinate axes <m> \mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3</m>:
     </p>
   
-    <video source="sm2.mp4"/>
+    <video source="SingularTransform3D.mp4"/>
 
     <p>
       Once again, we have

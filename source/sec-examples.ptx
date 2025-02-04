@@ -2,13 +2,15 @@
 
 <section xml:id="examples" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Example Gallery</title>
+  <p>
+    Below are a collection of manimations that have yet to find a home.
+  </p>
 
-  <video source="Limit.mp4"/>
-  <video source="LimitDC.mp4"/>
-  <video source="SingularMatrix.mp4"/>
-  <video source="sm2.mp4"/>
-  <video source="Span.mp4"/>
-  <video source="TransformGridWithBasisVectors.mp4"/>
-  <video source="Limit.mp4"/>
-  <video source="Limit.mp4"/>
-  <video source="Limit.mp4"/>
+  <video source="1-4WS_sl3d.mp4"/>
+  <video source="FTCp2.mp4"/>
+  <video source="Intdx.mp4"/>
+  <video source="IrratTrace.mp4"/>
+  <video source="RatTrace.mp4"/>
+  <video source="SpanLine2D.mp4"/>
+  <video source="SpanLine3D.mp4"/>
+  <video source="VecAdd.mp4"/>
