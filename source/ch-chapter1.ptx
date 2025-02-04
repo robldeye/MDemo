@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Limits</title>
+  <title>Calculus</title>
 
   <introduction>
     <p> The notion of limits delicately captures the infinite, and is fundamental to the construction of the two main objects in Calculus: Derivates and Integrals. </p>

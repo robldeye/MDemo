@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Linear Transformations</title>
+  <title>Linear Algebra</title>
 
   <introduction>
     <p> Given a matrix <m>A</m>, how does <m>A</m> affect the vectors we apply it to? To fully understand linear systems of the form <m>A\mathbf{x}=\mathbf{b}</m> and their solution sets, we first need to see how <m>A</m> acts on vectors. </p>
