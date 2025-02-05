@@ -6,7 +6,7 @@
 
   <book xml:id="Manimated">
     <title>Manimated</title>
-    <subtitle>An approach to Mathematics via Animations</subtitle>
+    <subtitle>An demonstration of Mathematics via Animations</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
