@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Example Gallery",
-  "body": " Example Gallery  Below are a collection of manimations that have yet to find a home.          "
+  "body": " Example Gallery  Below are a collection of manimations that have yet to find a home.           "
 },
 {
   "id": "backmatter-2",
