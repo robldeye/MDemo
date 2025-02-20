@@ -47,5 +47,17 @@
   </p>
 
   </exercise>
+
+  <p>
+    Desmos demo.
+  </p>
+
+  <interactive desmos="rmowlmjjkz" width="60%" aspect="2:3" />
+
+  <p>
+    Derivative demo.
+  </p>
+
+  <video source="ddx.mp4"/>
   
 </section>
