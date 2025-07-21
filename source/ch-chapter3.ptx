@@ -8,6 +8,11 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="./sec-examples.ptx" />
+  <xi:include href="./sec-examples_calculus_1.ptx" />
+  <xi:include href="./sec-examples_linear_algebra.ptx" />
+  <xi:include href="./sec-examples_differential_equations.ptx" />
+  <xi:include href="./sec-examples_complex_analysis.ptx" />
+  <xi:include href="./sec-examples_applied_topology.ptx" />
+
 
 </chapter>

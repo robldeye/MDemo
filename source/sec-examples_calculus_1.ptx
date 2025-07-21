@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Calculus I Examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Example Gallery</title>
+  <p>
+    Below are a collection of Calculus I manimations that have yet to find a home.
+  </p>
+
+  <video source="calculus_1_ddx.mp4"/>
+  <video source="calculus_1_FTCp2.mp4"/>
+  <video source="calculus_1_Limit.mp4"/>
+  <video source="calculus_1_LimitDC.mp4"/>
+
+</section>

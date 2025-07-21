@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Calculus I Examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Example Gallery</title>
+  <p>
+    Below are a collection of Differential Equations manimations that have yet to find a home.
+  </p>
+
+  <video source="1-4WS_sl3d.mp4"/>
+  <video source="FTCp2.mp4"/>
+  <video source="Intdx.mp4"/>
+  <video source="IrratTrace.mp4"/>
+  <video source="RatTrace.mp4"/>
+  <video source="SpanLine2D.mp4"/>
+  <video source="SpanLine3D.mp4"/>
+  <video source="VecAdd.mp4"/>
+  <video source="ddx.mp4"/>
+  <video source="Coordinates.mp4"/>
+
+</section>
